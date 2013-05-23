@@ -1,0 +1,27 @@
+{
+  "name": "node-mkprg",
+  "description": "Node-mkprg to be used with vim.",
+  "version": "0.0.1",
+  "main": "./index",
+  "dependencies": {
+    "npm": "~1.2.22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/olalonde/node-mkprg.git"
+  },
+  "keywords": [
+    "vim"
+  ],
+  "scripts": {
+    "start": "node -v"
+  },    
+  "bin": {
+    "node-makeprg": "./cli.js"
+  },
+  "author": {
+    "name": "Olivier Lalonde",
+    "email": "olalonde@gmail.com",
+    "url": "http://www.syskall.com"
+  }
+}
