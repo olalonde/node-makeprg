@@ -16,8 +16,10 @@ function makeprg (currPath) {
     if (fs.existsSync(packagePath)) {
       var conf = require(packagePath);
       npm.load(conf, function (err, package) {
+        process.chdir(dir);
         npm.commands.start(function () {
-          //console.log(arguments);                  
+          console.log(packagePath);
+          console.log(arguments);
         });
       });
       break;
