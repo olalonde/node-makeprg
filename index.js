@@ -11,7 +11,7 @@ function makeprg (currPath) {
     dir = path.dirname(dir);
 
   while (true) {
-    console.log(dir);
+    //console.log(dir);
     var packagePath = path.join(dir, 'package.json');
     if (fs.existsSync(packagePath)) {
       var conf = require(packagePath);

@@ -27,4 +27,5 @@ by
 
 # TODO
 
-Pull request vim-nodejs-errorformat and use environment variable to determine which makeprg to use.
+Pull request vim-nodejs-errorformat and use environment
+variable/vim configuration to determine which makeprg to use.
