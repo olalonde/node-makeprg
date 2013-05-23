@@ -34,5 +34,3 @@ function makeprg (currPath) {
 }
 
 module.exports = makeprg;
-
-makeprg(process.cwd());

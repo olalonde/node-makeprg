@@ -1,6 +1,6 @@
 {
-  "name": "node-mkprg",
-  "description": "Node-mkprg to be used with vim.",
+  "name": "node-makeprg",
+  "description": "Node-makeprg can be used as the script to run when using Vim's make command.",
   "version": "0.0.1",
   "main": "./index",
   "dependencies": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/olalonde/node-mkprg.git"
+    "url": "git://github.com/olalonde/node-makeprg.git"
   },
   "keywords": [
     "vim"
